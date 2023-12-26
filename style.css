@@ -1,0 +1,50 @@
+/* General body styling */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  color: #333;
+  padding: 50px 0;
+}
+
+.hero h1,
+.hero h2 {
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background: #fff;
+  color: #333;
+  padding: 50px 0;
+}
+
+#portfolio .card {
+  margin-bottom: 30px;
+}
+
+#portfolio .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#portfolio .card-title {
+  font-weight: 700;
+}
+
+#portfolio .btn {
+  color: #fff;
+  background: #333;
+}
+
+#portfolio .btn:hover {
+  background: #444;
+}
